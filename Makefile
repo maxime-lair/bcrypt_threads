@@ -1,18 +1,15 @@
-BINARY_NAME=bcrypt_threads
-
 hello:
 	echo "hello"
 
 build:
+	go mod init github.com/maxime-lair/bcrypt_threads
 	go get golang.org/x/crypto/bcrypt
-	go build -o $(BINARY_NAME) main.go
 
 run:
-	./$(BINARY_NAME)
+	go run .
 
 clean:
 	go clean
-	rm $(BINARY_NAME)
 
 all: build run
 
