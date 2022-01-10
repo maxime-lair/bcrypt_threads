@@ -15,7 +15,7 @@ Download the repository then
 
 ## Sample
 
-With process usage on the side
+With process usage on the side (accelerated)
 
 ![threads_go](https://user-images.githubusercontent.com/72258375/148839199-2484d111-74e1-43d7-a0b4-d9c6073f748d.gif)
 
