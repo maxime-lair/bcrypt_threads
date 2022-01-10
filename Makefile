@@ -11,6 +11,7 @@ run:
 
 clean:
 	go clean
+	rm go.*
 
 all: build run clean
 
